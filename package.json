@@ -1,0 +1,38 @@
+{
+    "name": "painel-js",
+    "version": "0.1.0",
+    "description": "Este é um projeto para testes e estudo do funcionamento de um painel adminstrativo utilizando  javascript puro, HTML, CSS e Boostrap.",
+    "engines": {
+        "node": "14.12.8",
+        "npm": "6.14.*"
+    },
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "serve": "node server.js"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "bootstrap": "^5.0.2",
+        "cross-env": "^7.0",
+        "laravel-mix": "^6.0.6",
+        "resolve-url-loader": "^3.1.0",
+        "sass": "^1.15.2",
+        "sass-loader": "^8.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leticiagerhardt/painel-js.git"
+    },
+    "author": "Letícia Gerhardt <leticiafloripasc@hotmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/leticiagerhardt/painel-js/issues"
+    },
+    "homepage": "https://github.com/leticiagerhardt/painel-js#readme"
+}
